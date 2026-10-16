@@ -1,0 +1,30 @@
+# 依赖（本项目零依赖，跑测试也不装包）
+node_modules/
+package-lock.json
+
+# 密钥与本地配置：这个项目把 Key 存在浏览器里，仓库里永远不该出现这些
+.env
+.env.*
+*.local
+*.secret
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# 本地临时产物
+.verify/
+tools/__pycache__/
+*.log

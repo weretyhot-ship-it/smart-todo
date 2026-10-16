@@ -1,0 +1,15 @@
+{
+  "name": "smart-todo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "把中文大白话拆成带时间/优先级/类别的待办清单 · LLM + 原生 JS，零依赖",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node tools/verify.mjs",
+    "start": "python launcher.pyw"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

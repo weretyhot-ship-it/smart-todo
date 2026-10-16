@@ -1,0 +1,9 @@
+# 统一行尾符：仓库里一律 LF。否则在 Windows 上提交、在 Linux/macOS 上跑测试时
+# 会因为 CRLF 出现莫名其妙的报错（尤其 tools/verify.mjs 和 .pyw 脚本）。
+* text=auto eol=lf
+
+# 二进制文件不要让 git 去转换
+*.png binary
+*.ico binary
+*.jpg binary
+*.mp4 binary
